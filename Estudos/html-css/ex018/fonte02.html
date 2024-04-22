@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Fonte';
+            src: url('fonts/Raillinc.otf') format('opentype');
+            /*
+            Tipos de format()
+            Opentype - otf
+            Truetype - ttf
+            Truetype-att (Apple Advanced Typography)
+            SVG
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            font-family:'Fonte';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores inventore ducimus, hic reprehenderit, explicabo nam nihil exercitationem, culpa porro quas quis! Recusandae quaerat, nam architecto quis harum praesentium natus corrupti.</p>
+</body>
+</html>
